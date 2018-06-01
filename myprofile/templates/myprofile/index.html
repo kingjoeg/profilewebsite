@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Joe Greaves | Profile</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'myprofile/css/profile.css' %}"/>
+</head>
+<body>
+
+    <!-- Header -->
+    <div id="homeSection" class="header position-relative">
+        <div class="header-text-container">
+            <div class="header-text">
+                <p><b class="name">Joe Greaves</b></p>
+                <p>&lt;Web Developer&gt;</p>
+            </div>
+        </div>
+        <canvas id="my-graphic"></canvas>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <div class="navbar navbar-fixed d-flex align-items-center">
+            <div class="nav-logo"><img src="{% static 'myprofile/images/jg_logo.svg' %}" alt="JG logo"/></div>
+            <ul class="nav-items click-jump scroll-color">
+                <li class="nav-item" data-target="#homeSection">Home</li>
+                <li class="nav-item" data-target="#aboutSection">About</li>
+                <li class="nav-item" data-target="#portfolioSection">Portfolio</li>
+                <li class="nav-item" data-target="#contactSection">Contact</li>
+            </ul>
+            <div class="burger-icon ml-auto">
+                <div class="burger-layer"></div>
+                <div class="burger-layer"></div>
+                <div class="burger-layer"></div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="aboutSection" class="about-section edges">
+            <h1 class="heading slide-right">About</h1>
+            <div class="about-icons row">
+                <div class="about-icon-container col-md-3 col-6">
+                    <img class="twist" src="{% static 'myprofile/images/phone_icon.svg' %}" alt="phone icon"/>
+                    <div class="about-icon-text fade-in">
+                        <h2>Mobile First</h2>
+                        <p>Fast performance on mobile devices.</p>
+                    </div>
+                </div>
+                <div class="about-icon-container col-md-3 col-6">
+                    <img class="twist" src="{% static 'myprofile/images/dynamic_icon.svg' %}" alt="dynamic icon"/>
+                    <div class="about-icon-text fade-in">
+                        <h2>Dynamic</h2>
+                        <p> Introduce animation and energy with JavaScript and CSS.</p>
+                    </div>
+                </div>
+                <div class="about-icon-container col-md-3 col-6">
+                    <img class="twist" src="{% static 'myprofile/images/responsive_icon.svg' %}" alt="responsive icon"/>
+                    <div class="about-icon-text fade-in">
+                        <h2>Responsive</h2>
+                        <p>One website displayed perfectly on any screen size.</p>
+                    </div>
+                </div>
+                <div class="about-icon-container col-md-3 col-6">
+                    <img class="twist" src="{% static 'myprofile/images/efficiency_icon.svg' %}" alt="efficiency icon"/>
+                    <div class="about-icon-text fade-in">
+                        <h2>Efficient</h2>
+                        <p>Write reusable code that follows the DRY principle.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-info col-md-6 slide-right">
+                    <h2>Bio</h2>
+                    <p>After earning a first-class degree at <a class="bcu-text" href="https://www.bcu.ac.uk">BCU</a>
+                        , I decided to specialise in front-end web development. With my own free time, I have continued
+                        to improve and expand my skill set, as I am currently improving my back-end development skills.
+                        My websites are typically built for academic projects, small businesses, and personal use.</p>
+                </div>
+                <div class="about-bars col-md-6 slide-left">
+                    <div class="progress-bars">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">HTML</p>
+                                <div class="progress-bar" data-percent="90"></div>
+                                <p class="progress-percent">90%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">CSS</p>
+                                <div class="progress-bar" data-percent="70"></div>
+                                <p class="progress-percent">70%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">JavaScript</p>
+                                <div class="progress-bar" data-percent="70"></div>
+                                <p class="progress-percent">70%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">jQuery</p>
+                                <div class="progress-bar" data-percent="80"></div>
+                                <p class="progress-percent">80%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">GIT</p>
+                                <div class="progress-bar" data-percent="50"></div>
+                                <p class="progress-percent">50%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">Python</p>
+                                <div class="progress-bar" data-percent="80"></div>
+                                <p class="progress-percent">80%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">Django</p>
+                                <div class="progress-bar" data-percent="40"></div>
+                                <p class="progress-percent">40%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">Photoshop</p>
+                                <div class="progress-bar" data-percent="80"></div>
+                                <p class="progress-percent">80%</p>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-background">
+                                <p class="progress-text">Illustrator</p>
+                                <div class="progress-bar" data-percent="40"></div>
+                                <p class="progress-percent">40%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div id="portfolioSection" class="portfolio-section">
+            <div class="edges">
+                <h1 class="heading slide-right">Portfolio</h1>
+                <div class="row">
+                    <a class="col-lg-9" href="{% url 'clothing:index' %}">
+                        <div class="port-window">
+                            <img class="port-image" src="{% static 'myprofile/images/alpha_ware.svg' %}">
+                        </div>
+                    </a>
+                    <div class="col-lg-3">
+                        <div class="port-body align-items-center">
+                            <h3>Alpha Wear</h3>
+                            <p class="port-text">A clothing website built using <span>Bootstrap 4</span>.</p>
+                            <a class="port-btn" href="{% url 'clothing:index' %}">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="port-window col-lg-9">
+                        <img class="port-image port-image-2" src="{% static 'myprofile/images/under_construction.jpg' %}">
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contactSection" class="contact-section">
+            <div class="edges">
+                <h1 class="heading">Contact</h1>
+                <div class="contact-text">
+                    <p><b>Name:</b> Joe Greaves</p>
+                    <p><b>Phone:</b> 077403845192</p>
+                    <p><b>Email:</b> joegreaves@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'myprofile/scripts/jquery.js' %}"></script>
+    <script src="{% static 'myprofile/scripts/pts.js' %}"></script>
+    <script src="{% static 'myprofile/scripts/profile_graphic.js' %}"></script>
+    <script src="{% static 'myprofile/scripts/profile.js' %}"></script>
+
+</body>
+</html>

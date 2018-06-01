@@ -1,0 +1,525 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat-Bold.ttf') format("truetype");
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #EF3E55;
+}
+
+/* Add Styling Here
+------------------------------------------------------
+*/
+
+/* Header */
+.header {
+    height: 700px;
+}
+
+.header-text-container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+.header-text {
+    font-size: 30px;
+}
+
+.name {
+    color: #EF3E55;
+    font-size: 45px;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #2d2d2d;
+    z-index: 1;
+    transform: translateZ(100px);
+}
+
+.nav-logo {
+    width: 80px;
+    height: 38px;
+}
+
+.nav-logo img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+/* Main Content */
+.main-content {
+    color: #414141;
+    text-align: center;
+}
+
+.heading {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+}
+
+.about-icons {
+    margin-bottom: 50px;
+}
+
+.about-icon-container img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.about-icon-text {
+    font-size: 14px;
+    margin: 0 20px 30px 20px;
+}
+
+.about-icon-text h2 {
+    margin: 10px 0;
+}
+
+.about-info, .about-bars {
+    padding: 0 30px;
+}
+
+.about-info {
+    margin-bottom: 50px;
+}
+
+.about-info h2 {
+    margin-bottom: 20px;
+}
+
+.about-info p {
+    text-align: left;
+}
+
+.bcu-text {
+    font-weight: bold;
+}
+
+.progress-bar-container {
+    margin: 10px 0;
+    height: 30px;
+}
+
+.progress-text {
+    color: white;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.progress-bar-background {
+    position: relative;
+    background-color: lightgray;
+    height: 30px;
+    width: auto;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #499aed;
+    width: 0;
+    height: 30px;
+}
+
+.progress-percent {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 8px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 50px 10px;
+    background-color: #f5f5f5;
+}
+
+.port-window {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.port-image {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.port-image-2 {
+    background-color: #eab440;
+}
+
+.port-body {
+    padding: 0 30px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.port-text {
+    margin: 20px 0;
+}
+
+.port-text span {
+    color: #EF3E55;
+    font-weight: bold;
+}
+
+.port-btn {
+    background-color: #414141;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    width: 130px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 0;
+}
+
+.contact-text {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-text p {
+    margin: 5px 0;
+}
+
+/* Animation Styles
+------------------------------------------------------
+*/
+
+/* Slide Animations */
+.slide-left {
+    opacity: 0;
+    position: relative;
+}
+
+.slide-right {
+    opacity: 0;
+    position: relative;
+}
+
+.slide-left-animation {
+    animation: leftSlider 2s forwards;
+}
+
+.slide-right-animation {
+    animation: rightSlider 2s forwards;
+}
+
+@keyframes leftSlider {
+    from {opacity: 0; left: 200px;}
+    to {opacity: 1; left: 0;}
+}
+
+@keyframes rightSlider {
+    from {opacity: 0; left: -200px;}
+    to {opacity: 1; left: 0;}
+}
+
+/* Fade Animation */
+.fade-in {
+    opacity: 0;
+}
+
+.fade-in-animation {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* Twist Animation */
+.twist {
+    transform: rotateY(-90deg);
+}
+
+.twist-animation {
+    animation: twister 2s forwards;
+}
+
+@keyframes twister {
+    from {transform: rotateY(-90deg)}
+    to {transform: rotateY(0deg)}
+}
+
+/* Navbar Animation */
+.nav-items {
+    background-color: #2d2d2d;
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    font-size: 40px;
+    text-align: center;
+
+    height: 0;
+    transition: height 1s;
+}
+
+.nav-expand {
+    height: 300px;
+}
+
+/* Bootstrap Styles
+------------------------------------------------------
+*/
+
+.nav-items > * {
+    margin: 20px 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.burger-icon {
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 15px;
+}
+
+.burger-layer {
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.burger-icon-change {border-color: #EF3E55}
+.burger-layer-change {background-color: #EF3E55}
+
+[class*='col'] {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* Position */
+.position-absolute {position: absolute}
+.position-relative {position: relative}
+.position-fixed {position: fixed}
+
+/* Margin */
+.ml-auto {margin-left: auto}
+.mr-auto {margin-right: auto}
+
+/* Flexbox Styles */
+.d-flex {display: flex}
+
+.justify-content-start {justify-content: flex-start}
+.justify-content-end {justify-content: flex-end}
+.justify-content-center {justify-content: center}
+.justify-content-between {justify-content: space-between}
+.justify-content-around {justify-content: space-around}
+.align-items-start {align-items: flex-start}
+.align-items-end {align-items: flex-end}
+.align-items-center {align-items: center}
+.align-items-baseline {align-items: baseline}
+.align-items-stretch {align-items: stretch}
+.align-self-start {align-self: flex-start}
+.align-self-end {align-self: flex-end}
+.align-self-center {align-self: center}
+.align-self-baseline {align-self: baseline}
+.align-self-stretch {align-self: stretch}
+
+/* Same col-width on any screen size */
+.col {flex: 1 1 0}
+.col-auto {width: auto}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+
+/* Small (Large Phones) > 576 */
+@media screen and (min-width: 576px) {
+    .col-sm-1 {width: 8.33%}
+    .col-sm-2 {width: 16.66%}
+    .col-sm-3 {width: 25%}
+    .col-sm-4 {width: 33.33%}
+    .col-sm-5 {width: 41.66%}
+    .col-sm-6 {width: 50%}
+    .col-sm-7 {width: 58.33%}
+    .col-sm-8 {width: 66.66%}
+    .col-sm-9 {width: 75%}
+    .col-sm-10 {width: 83.33%}
+    .col-sm-11 {width: 91.66%}
+    .col-sm-12 {width: 100%}
+
+    .header-text {
+        font-size: 40px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+}
+
+/* Medium (Tablets) > 768 */
+@media screen and (min-width: 768px) {
+    .col-md-1 {width: 8.33%}
+    .col-md-2 {width: 16.66%}
+    .col-md-3 {width: 25%}
+    .col-md-4 {width: 33.33%}
+    .col-md-5 {width: 41.66%}
+    .col-md-6 {width: 50%}
+    .col-md-7 {width: 58.33%}
+    .col-md-8 {width: 66.66%}
+    .col-md-9 {width: 75%}
+    .col-md-10 {width: 83.33%}
+    .col-md-11 {width: 91.66%}
+    .col-md-12 {width: 100%}
+
+    .edges {
+        margin: 0 3%;
+    }
+
+    .about-icon-text {
+        font-size: 14px;
+        margin: 0 20px 0 20px;
+    }
+
+    .header-text {
+        font-size: 50px;
+    }
+
+    .name {
+        font-size: 70px;
+    }
+}
+
+/* Large (Desktops) > 992 */
+@media screen and (min-width: 992px) {
+    .col-lg-1 {width: 8.33%}
+    .col-lg-2 {width: 16.66%}
+    .col-lg-3 {width: 25%}
+    .col-lg-4 {width: 33.33%}
+    .col-lg-5 {width: 41.66%}
+    .col-lg-6 {width: 50%}
+    .col-lg-7 {width: 58.33%}
+    .col-lg-8 {width: 66.66%}
+    .col-lg-9 {width: 75%}
+    .col-lg-10 {width: 83.33%}
+    .col-lg-11 {width: 91.66%}
+    .col-lg-12 {width: 100%}
+
+    .nav-items {
+        display: flex;
+        position: relative;
+        top: 0;
+        height: auto;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .nav-items > * {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+
+    .burger-icon {
+        display: none;
+    }
+
+    .edges {
+        margin: 0 8.33%;
+    }
+
+    .portfolio-section {
+        padding: 50px 0;
+    }
+
+    .port-body {
+        height: 200px;
+    }
+
+    .nav-item:hover {
+        cursor: pointer;
+    }
+}
+
+/* Extra-Large (Large Desktops) > 1200 */
+@media screen and (min-width: 1200px) {
+    .col-xl-1 {width: 8.33%}
+    .col-xl-2 {width: 16.66%}
+    .col-xl-3 {width: 25%}
+    .col-xl-4 {width: 33.33%}
+    .col-xl-5 {width: 41.66%}
+    .col-xl-6 {width: 50%}
+    .col-xl-7 {width: 58.33%}
+    .col-xl-8 {width: 66.66%}
+    .col-xl-9 {width: 75%}
+    .col-xl-10 {width: 83.33%}
+    .col-xl-11 {width: 91.66%}
+    .col-xl-12 {width: 100%}
+}

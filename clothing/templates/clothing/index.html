@@ -1,0 +1,41 @@
+{% extends 'clothing/base.html' %}
+
+{% block title %}Alpha Wear | Home{% endblock %}
+
+{% block body %}
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="row position-relative">
+        <div class="col-lg-6 p-0">
+            {% load static %}
+            <img class="img-fluid" src="{% static 'clothing/images/women_ad_2.jpg' %}" alt="clothing image">
+        </div>
+
+        <!-- Button for mobile screens -->
+        <div class="mobile-ad-text text-center w-100">
+            <a class="btn btn-dark w-100" style="width: 120px; border-radius: 0;" href="{% url 'clothing:women' %}">
+                Shop Women
+                <span class="float-right">&gt;</span>
+            </a>
+            <h1 class="display-3">StreetWear</h1>
+            <a class="btn btn-dark w-100" style="width: 120px; border-radius: 0;" href="{% url 'clothing:men' %}">
+                Shop Men
+                <span class="float-right">&gt;</span>
+            </a>
+        </div>
+
+        <div class="col-lg-6 p-0">
+            <img class="img-fluid" src="{% static 'clothing/images/mens_ad_1.jpg' %}" alt="clothing image">
+        </div>
+        <div class="center-box container-fluid position-absolute h-100 w-100">
+            <div class="row text-center h-100 align-items-center">
+                <div class="col-lg-6 offset-lg-3">
+                    <h1 class="display-3">StreetWear</h1>
+                    <a class="btn btn-dark mr-5" style="width: 120px" href="{% url 'clothing:women' %}">Shop Women</a>
+                    <a class="btn btn-dark" style="width: 120px" href="{% url 'clothing:men' %}">Shop Men</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

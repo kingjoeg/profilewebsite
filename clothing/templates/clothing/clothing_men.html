@@ -1,0 +1,149 @@
+{% extends 'clothing/base.html' %}
+
+{% block title %}Alpha Wear | Men{% endblock %}
+
+{% block body %}
+<!-- Main Content -->
+<div class="container-fluid">
+
+    <div class="row">
+
+        <!-- Side Control Bar -->
+        <div class="col-lg-3 mt-3">
+            <div class="card filter-box border-0">
+                <div class="card-body border-bottom">
+                    <div class="row">
+                        <div class="col d-flex align-items-center" style="height: 50px">
+                            <h5 class="card-title m-0">Category</h5>
+                        </div>
+                        <div class="col-auto">
+                            <a class="edit-link" data-toggle="collapse" href="#categoryItems">
+                                <span class="plus-minus">&plus;</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="categoryItems" class="side-collapse collapse">
+                        <form class="form-check">
+                            <input class="form-check-input" id="topCheckbox" type="checkbox">
+                            <label class="ml-2" for="topCheckbox">Shirts</label>
+                            <label class="float-right" for="topCheckbox">100</label>
+                        </form>
+                        <form class="form-check">
+                            <input class="form-check-input" id="dressesCheckbox" type="checkbox">
+                            <label class="ml-2" for="dressesCheckbox">Trousers</label>
+                            <label class="float-right" for="dressesCheckbox">250</label>
+                        </form>
+                        <form class="form-check">
+                            <input class="form-check-input" id="leggingsCheckbox" type="checkbox">
+                            <label class="ml-2" for="leggingsCheckbox">Coats</label>
+                            <label class="float-right" for="leggingsCheckbox">80</label>
+                        </form>
+                        <form class="form-check">
+                            <input class="form-check-input" id="shoesCheckbox" type="checkbox">
+                            <label class="ml-2" for="shoesCheckbox">Shoes</label>
+                            <label class="float-right" for="shoesCheckbox">187</label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card filter-box border-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col d-flex align-items-center" style="height: 50px">
+                            <h5 class="card-title m-0">Price Range</h5>
+                        </div>
+                        <div class="col-auto">
+                            <a class="edit-link" data-toggle="collapse" href="#priceRangeItems">
+                                <span class="plus-minus">&plus;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <form id="priceRangeItems" class="side-collapse collapse">
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="input-icon-container position-relative">
+                                    <span>£</span>
+                                    <input type="text" class="form-control pl-4" id="priceOne">
+                                </div>
+                            </div>
+                            <div class="col-auto input-between-text">
+                                <p>to</p>
+                            </div>
+                            <div class="col">
+                                <div class="input-icon-container position-relative">
+                                    <span class="pound-sign">£</span>
+                                    <input type="text" class="form-control pl-4" id="priceTwo">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary w-100 mt-3" type="submit">Update Price</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Items-->
+        {% load static %}
+
+        <div class="col-lg-9 mt-3">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="{% static 'clothing/images/mens_ad_1.jpg' %}">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Title</h5>
+                            <p class="card-text">£0.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends 'clothing/base.html' %}
+
+{% block title %}Alpha Wear | Contact{% endblock %}
+
+{% block body %}
+<!-- Main Content -->
+<div class="container-fluid">
+    <div class="row mt-3">
+        <div class="col-lg-6 offset-lg-3">
+            <h5 class="mb-3">By Email</h5>
+            <form class="mb-4">
+                <div class="form-group">
+                    <label for="inputName" class="sr-only">Name</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="sr-only">Email</label>
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputSelect">Enter a subject</label>
+                    <select class="form-control" id="inputSelect" name="inputSelect_id">
+                        <option></option>
+                        <option>Delivery</option>
+                        <option>Product name</option>
+                        <option>Product search</option>
+                        <option>Website enquiry</option>
+                        <option>Payment</option>
+                        <option>Returns and refunds</option>
+                        <option>Technical</option>
+                        <option>General inquiry</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputOrder" class="sr-only">Order no</label>
+                    <input type="text" class="form-control" id="inputOrder" placeholder="Order no">
+                </div>
+                <div class="form-group">
+                    <label for="inputText" class="sr-only">Input text</label>
+                    <textarea class="form-control" id="inputText" placeholder="Enter a message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark text-light w-100">Submit Email</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
