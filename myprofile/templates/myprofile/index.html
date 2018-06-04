@@ -180,10 +180,19 @@
         <div id="contactSection" class="contact-section">
             <div class="edges">
                 <h1 class="heading">Contact</h1>
-                <div class="contact-text">
-                    <p><b>Name:</b> Joe Greaves</p>
-                    <p><b>Phone:</b> 077403845192</p>
-                    <p><b>Email:</b> joegreaves@hotmail.com</p>
+                <div class="d-flex align-items-center flex-direction-column">
+                    {% if messages %}
+                        {% for message in messages %}
+                            <p>{{ message }}</p>
+                        {% endfor %}
+                    {% endif %}
+                    <form class="contact-form" method="post">
+                        {% csrf_token %}
+                        {% for field in form %}
+                            {{ field }}
+                        {% endfor %}
+                        <button class="contact-btn" type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
