@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3d204e-7937-4d0d-ac5d-dae2584a6938" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="$PROJECT_DIR$/profilewebsite/settings/base.py" afterPath="$PROJECT_DIR$/profilewebsite/settings/base.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,24 +51,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profilewebsite/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="325">
+              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profilewebsite/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#230#239#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,11 +85,11 @@
         <option value="$PROJECT_DIR$/profilewebsite/settings.py" />
         <option value="$PROJECT_DIR$/myprofile/forms.py" />
         <option value="$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css" />
-        <option value="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" />
         <option value="$PROJECT_DIR$/myprofile/urls.py" />
         <option value="$PROJECT_DIR$/myprofile/views.py" />
-        <option value="$PROJECT_DIR$/profilewebsite/settings/base.py" />
         <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" />
+        <option value="$PROJECT_DIR$/profilewebsite/settings/base.py" />
       </list>
     </option>
   </component>
@@ -156,6 +145,24 @@
             <path>
               <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="myprofile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="myprofile" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="myprofile" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="myprofile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myprofile/templates/myprofile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="196" column="18" lean-forward="true" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myprofile/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -490,25 +490,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="81" lean-forward="false" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profilewebsite/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myprofile/templates/myprofile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="187" column="31" lean-forward="true" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -520,6 +521,14 @@
           <folding>
             <element signature="e#230#239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profilewebsite/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
