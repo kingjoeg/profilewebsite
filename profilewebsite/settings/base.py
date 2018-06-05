@@ -110,7 +110,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'jg.coding.uk@gmail.com'
+EMAIL_HOST_USER = "jg.coding.uk@gmail.com"
 EMAIL_HOST_PASSWORD = os.environ['GMAIL_PASSWORD']
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True

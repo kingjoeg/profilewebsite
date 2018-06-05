@@ -16,11 +16,11 @@ def index(request):
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
 
-            message_with_sender = from_email + '\n\n' + message
+            message_with_sender = from_email + "\n\n" + message
 
             try:
                 send_mail(name, message_with_sender, from_email, [settings.EMAIL_HOST_USER], fail_silently=True)
-                messages.success(request, 'Success! Thanks for your message.')
+                messages.success(request, "Success! Thanks for your message.")
                 return redirect('myprofile:index')
             except BadHeaderError:
                 return HttpResponse('Invalid Header Found')
