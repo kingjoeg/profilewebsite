@@ -1,0 +1,200 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('fonts/Montserrat-Bold.ttf') format("truetype");
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+}
+
+.layer-7 {transform: translateZ(-1px) scale(2)}
+.layer-6 {transform: translateZ(-0.9px) scale(1.9)}
+.layer-5 {transform: translateZ(-0.8px) scale(1.8)}
+.layer-4 {transform: translateZ(-0.3px) scale(1.3)}
+.layer-3 {transform: translateZ(-0.2px) scale(1.2)}
+.layer-2 {transform: translateZ(-0.1px) scale(1.1)}
+.layer-1 {transform: translateZ(0)}
+
+.parallax-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.parallax-logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateZ(-0.8px) scale(1.8);
+}
+
+.parallax-logo {
+    width: 250px;
+}
+
+.main-content {
+    background-color: #200002;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    width: 100%;
+    padding: 50px 0;
+    margin: 0 20px;
+    color: #fdae2a;
+    font-family: Montserrat, sans-serif;
+}
+
+.body-header {
+    background: url("leftside_arrow.svg") no-repeat left center,
+                url("rightside_arrow.svg") no-repeat right center;
+    background-color: #fdae2a;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: #200002;
+    padding: 10px;
+    margin: 50px 0;
+}
+
+.leading-text {
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.body-text {
+    margin: 20px 0;
+    line-height: 30px;
+}
+
+.body-list {
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.body-link {
+    text-decoration: none;
+    color: #fee37b;
+    font-weight: bold;
+}
+
+.body-image-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.body-image-container img {
+    width: 48%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer-header {
+    background: url("leftside_arrow.svg") no-repeat left center,
+                url("rightside_arrow.svg") no-repeat right center;
+    background-color: #95370e;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    color: #200002;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.footer-text {
+    color: #95370e;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Medium (Tablets) > 768 */
+@media screen and (min-width: 768px) {
+    .col-md-1 {width: 8.33%}
+    .col-md-2 {width: 16.66%}
+    .col-md-3 {width: 25%}
+    .col-md-4 {width: 33.33%}
+    .col-md-5 {width: 41.66%}
+    .col-md-6 {width: 50%}
+    .col-md-7 {width: 58.33%}
+    .col-md-8 {width: 66.66%}
+    .col-md-9 {width: 75%}
+    .col-md-10 {width: 83.33%}
+    .col-md-11 {width: 91.66%}
+    .col-md-12 {width: 100%}
+
+    .body {
+        width: 700px;
+        margin: 0;
+    }
+
+    .body-header {
+        width: 700px;
+        padding: 10px;
+        font-size: 35px;
+    }
+
+    .body-image-container img {
+        width: 330px;
+    }
+
+    .footer-header {
+        width: 340px;
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+
+/* Large (Desktops) > 992 */
+@media screen and (min-width: 992px) {
+    .col-lg-1 {width: 8.33%}
+    .col-lg-2 {width: 16.66%}
+    .col-lg-3 {width: 25%}
+    .col-lg-4 {width: 33.33%}
+    .col-lg-5 {width: 41.66%}
+    .col-lg-6 {width: 50%}
+    .col-lg-7 {width: 58.33%}
+    .col-lg-8 {width: 66.66%}
+    .col-lg-9 {width: 75%}
+    .col-lg-10 {width: 83.33%}
+    .col-lg-11 {width: 91.66%}
+    .col-lg-12 {width: 100%}
+
+    .footer-header:hover {
+        background-color: #fdae2a;
+        cursor: pointer;
+    }
+}

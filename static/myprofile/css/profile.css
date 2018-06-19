@@ -190,15 +190,20 @@ a {
 }
 
 .port-image-2 {
-    background-color: #eab440;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: 10px;
 }
 
 .port-body {
-    padding: 0 30px;
+    padding: 0 0 0 30px;
     height: 140px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: space-around;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -480,6 +485,10 @@ a {
     .name {
         font-size: 70px;
     }
+
+    .port-text {
+        width: 300px;
+    }
 }
 
 /* Large (Desktops) > 992 */
@@ -527,6 +536,10 @@ a {
         height: 200px;
     }
 
+    .port-text {
+        width: 300px;
+    }
+
     .nav-item:hover {
         cursor: pointer;
     }
@@ -546,4 +559,8 @@ a {
     .col-xl-10 {width: 83.33%}
     .col-xl-11 {width: 91.66%}
     .col-xl-12 {width: 100%}
+
+    .port-text {
+        width: 370px;
+    }
 }

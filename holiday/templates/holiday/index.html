@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'holiday/index.css' %}">
+    <title>Holiday</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="parallax-container">
+            <img class="parallax-image layer-7" src="{% static 'holiday/landscape_7.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-6" src="{% static 'holiday/landscape_6.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-5" src="{% static 'holiday/landscape_5.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-4" src="{% static 'holiday/landscape_4.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-3" src="{% static 'holiday/landscape_3.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-2" src="{% static 'holiday/landscape_2.svg' %}" alt="landscape art">
+            <img class="parallax-image layer-1" src="{% static 'holiday/landscape_1.svg' %}" alt="landscape art">
+            <div class="parallax-logo-container">
+                <img class="parallax-logo" src="{% static 'holiday/beachside_logo.svg' %}" alt="beachside logo">
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="body">
+                <h1 class="body-header">BOOK NOW FOR SUMMER 2018</h1>
+                <p class="leading-text">Beachside Adventures is an English adventure company. We organise
+                holiday events so you don't have to.</p>
+                <p class="body-text">Welcome to the beginning of your adventure. You have arrived in a new destination.
+                It's somewhere near the sea with salt in the air. You visit the local shops and follow the crowds
+                down urban pathways, yet you never reach that unknown destination that you're trying to find.
+                You decided to find help, and it has brought you here.</p>
+                <p class="body-text">At Beachside Adventures we organise day trips for families and adults. Each
+                adventure that we organise is designed around three key concepts:</p>
+                <ul class="body-list">
+                    <li>Exciting Engagements</li>
+                    <li>Insightful Discoveries</li>
+                    <li>Reminiscent Memories</li>
+                </ul>
+                <p class="body-text">At Beachside Adventures we provide experiences at <b>over 50</b> holiday destinations
+                    in the U.K. <a class="body-link" href="#">Click here to see the full list.</a> If you wish to book
+                    a day trip with us then proceed to the booking page and choose either a family or adult package.</p>
+                <p class="body-text">We hope to begin an adventure with you soon.</p>
+                <div class="body-image-container">
+                    <img src="{% static 'holiday/hol1.jpg' %}" alt="holiday image">
+                    <img src="{% static 'holiday/hol2.jpg' %}" alt="holiday image">
+                    <img src="{% static 'holiday/hol3.jpg' %}" alt="holiday image">
+                    <img src="{% static 'holiday/hol4.jpg' %}" alt="holiday image">
+                </div>
+                <div class="footer">
+                    <h1 class="footer-header">PACKAGES</h1>
+                    <h1 class="footer-header">DESTINATIONS</h1>
+                    <h1 class="footer-header">CONTACT US</h1>
+                    <h1 class="footer-header">FAQ</h1>
+                </div>
+                <p class="footer-text">©2018 Beachside Adventures. A company owned by CTW Ltd.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
