@@ -205,6 +205,7 @@ a {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .port-text {
@@ -485,10 +486,6 @@ a {
     .name {
         font-size: 70px;
     }
-
-    .port-text {
-        width: 300px;
-    }
 }
 
 /* Large (Desktops) > 992 */
@@ -534,6 +531,7 @@ a {
 
     .port-body {
         height: 200px;
+        align-items: flex-start;
     }
 
     .port-text {

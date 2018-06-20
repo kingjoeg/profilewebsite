@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3d204e-7937-4d0d-ac5d-dae2584a6938" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/holiday/static/holiday/leftside_arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/holiday/static/holiday/ribbon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/holiday/static/holiday/rightside_arrow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/holiday/index.css" afterPath="$PROJECT_DIR$/static/holiday/index.css" />
-      <change beforePath="$PROJECT_DIR$/static/myprofile/images/landscape.svg" afterPath="$PROJECT_DIR$/static/myprofile/images/landscape.svg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css" afterPath="$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css" />
+      <change beforePath="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" afterPath="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,31 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/holiday/templates/holiday/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myprofile/templates/myprofile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+            <state relative-caret-position="241">
+              <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/holiday/static/holiday/index.css">
+      <file leaf-file-name="profile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="123" column="14" lean-forward="false" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dev.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profilewebsite/settings/dev.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            <state relative-caret-position="347">
+              <caret line="533" column="32" lean-forward="false" selection-start-line="533" selection-start-column="32" selection-end-line="533" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -78,12 +66,12 @@
         <option value="$PROJECT_DIR$/profilewebsite/settings/base.py" />
         <option value="$PROJECT_DIR$/holiday/urls.py" />
         <option value="$PROJECT_DIR$/holiday/views.py" />
-        <option value="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" />
-        <option value="$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css" />
         <option value="$PROJECT_DIR$/holiday/static/holiday/ribbon.html" />
         <option value="$PROJECT_DIR$/profilewebsite/settings/dev.py" />
         <option value="$PROJECT_DIR$/holiday/templates/holiday/index.html" />
         <option value="$PROJECT_DIR$/holiday/static/holiday/index.css" />
+        <option value="$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css" />
+        <option value="$PROJECT_DIR$/myprofile/templates/myprofile/index.html" />
       </list>
     </option>
   </component>
@@ -140,35 +128,6 @@
             <path>
               <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="holiday" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="holiday" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="holiday" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="holiday" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profilewebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profilewebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="holiday" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,6 +295,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -375,6 +335,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -469,6 +430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -499,6 +461,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,13 +472,6 @@
         <state relative-caret-position="60">
           <caret line="4" column="48" lean-forward="false" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myprofile/templates/myprofile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="176" column="45" lean-forward="false" selection-start-line="176" selection-start-column="45" selection-end-line="176" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -528,14 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="524" column="5" lean-forward="true" selection-start-line="524" selection-start-column="5" selection-end-line="524" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,8 +513,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/holiday/static/holiday/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="123" column="14" lean-forward="false" selection-start-line="123" selection-start-column="14" selection-end-line="123" selection-end-column="14" />
+        <state relative-caret-position="146">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myprofile/static/myprofile/css/profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="533" column="32" lean-forward="false" selection-start-line="533" selection-start-column="32" selection-end-line="533" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myprofile/templates/myprofile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="122" column="32" lean-forward="false" selection-start-line="122" selection-start-column="32" selection-end-line="122" selection-end-column="32" />
           <folding />
         </state>
       </provider>
