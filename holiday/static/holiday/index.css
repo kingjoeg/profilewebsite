@@ -15,6 +15,14 @@
     padding: 0;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .header {
     perspective: 1px;
     height: 100vh;
@@ -70,8 +78,8 @@
 }
 
 .body-header {
-    background: url("leftside_arrow.svg") no-repeat left center,
-                url("rightside_arrow.svg") no-repeat right center;
+    background: url("leftside_arrow.png") no-repeat left top / contain,
+                url("rightside_arrow.png") no-repeat right top / contain;
     background-color: #fdae2a;
     width: 100%;
     font-size: 25px;
@@ -113,8 +121,10 @@
 
 .body-image-container img {
     width: 48%;
+    height: 120px;
     margin-bottom: 40px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .footer {
@@ -124,8 +134,8 @@
 }
 
 .footer-header {
-    background: url("leftside_arrow.svg") no-repeat left center,
-                url("rightside_arrow.svg") no-repeat right center;
+    background: url("leftside_arrow.png") no-repeat left top / contain,
+                url("rightside_arrow.png") no-repeat right top / contain;
     background-color: #95370e;
     width: 100%;
     font-size: 18px;
@@ -169,6 +179,7 @@
 
     .body-image-container img {
         width: 330px;
+        height: 250px;
     }
 
     .footer-header {
