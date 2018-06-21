@@ -99,17 +99,17 @@ a {
 
 .about-icon-container img {
     width: 70%;
-    height: 70%;
     object-fit: contain;
 }
 
 .about-icon-text {
     font-size: 14px;
-    margin: 0 20px 30px 20px;
+    margin: 10px 20px 30px 20px;
 }
 
 .about-icon-text h2 {
     margin: 10px 0;
+    font-size: 16px;
 }
 
 .about-info, .about-bars {
@@ -126,6 +126,8 @@ a {
 
 .about-info p {
     text-align: left;
+    line-height: 25px;
+    font-size: 14px;
 }
 
 .bcu-text {
@@ -198,17 +200,21 @@ a {
 }
 
 .port-body {
-    padding: 0 0 0 30px;
-    height: 140px;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 30px;
+    text-align: left;
+}
+
+.port-body h3 {
+    font-size: 16px;
 }
 
 .port-text {
     margin: 20px 0;
+    font-size: 14px;
 }
 
 .port-text span {
@@ -452,6 +458,18 @@ a {
         width: 400px;
         margin: 0;
     }
+
+    .about-info p {
+        font-size: 16px;
+    }
+
+    .port-body h3 {
+        font-size: 18px;
+    }
+
+    .port-text {
+        font-size: 16px;
+    }
 }
 
 /* Medium (Tablets) > 768 */
@@ -475,7 +493,10 @@ a {
 
     .about-icon-text {
         font-size: 14px;
-        margin: 0 20px 0 20px;
+    }
+
+    .about-icon-text h2 {
+        font-size: 20px;
     }
 
     .header-text {
@@ -484,10 +505,6 @@ a {
 
     .name {
         font-size: 70px;
-    }
-
-    .port-text {
-        width: 300px;
     }
 }
 
@@ -534,6 +551,8 @@ a {
 
     .port-body {
         height: 200px;
+        align-items: flex-start;
+        padding: 0 0 0 30px;
     }
 
     .port-text {
