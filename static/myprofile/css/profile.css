@@ -17,6 +17,11 @@
 
 body {
     font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 16px;
 }
 
 a {
@@ -103,13 +108,11 @@ a {
 }
 
 .about-icon-text {
-    font-size: 14px;
     margin: 10px 20px 30px 20px;
 }
 
 .about-icon-text h2 {
     margin: 10px 0;
-    font-size: 16px;
 }
 
 .about-info, .about-bars {
@@ -127,7 +130,6 @@ a {
 .about-info p {
     text-align: left;
     line-height: 25px;
-    font-size: 14px;
 }
 
 .bcu-text {
@@ -208,13 +210,8 @@ a {
     text-align: left;
 }
 
-.port-body h3 {
-    font-size: 16px;
-}
-
 .port-text {
     margin: 20px 0;
-    font-size: 14px;
 }
 
 .port-text span {
@@ -238,8 +235,7 @@ a {
 .contact-form {
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
-    margin: 0 10px;
+    width: 95%;
 }
 
 .contact-field {
@@ -248,7 +244,7 @@ a {
     background-color: #f5f5f5;
     margin: 2px 0;
     padding: 8px 0 8px 16px;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .contact-btn {
@@ -446,6 +442,14 @@ a {
     .col-sm-11 {width: 91.66%}
     .col-sm-12 {width: 100%}
 
+    body {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
     .header-text {
         font-size: 40px;
     }
@@ -457,18 +461,6 @@ a {
     .contact-form {
         width: 400px;
         margin: 0;
-    }
-
-    .about-info p {
-        font-size: 16px;
-    }
-
-    .port-body h3 {
-        font-size: 18px;
-    }
-
-    .port-text {
-        font-size: 16px;
     }
 }
 
@@ -489,14 +481,6 @@ a {
 
     .edges {
         margin: 0 3%;
-    }
-
-    .about-icon-text {
-        font-size: 14px;
-    }
-
-    .about-icon-text h2 {
-        font-size: 20px;
     }
 
     .header-text {
